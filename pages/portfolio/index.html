@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -21,8 +22,28 @@
             </ul>
           </nav>
         </div>
-      </header>  
-    <h1>portfolio</h1>
+      </header>
     
+    <!-- Carousel Effect -->
+    <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <h1 class="header">Mario Card Memory Game <a href="https://yingwerica.github.io/MarioCardGame/" target="_blank" class="app-link">Play the game here!</a></h1>   
+              <img src="../../images/Mario Memory Game start page.jpg" alt="Mario Memory Game">
+            </li>
+            <li class="slide">
+              <h1 class="header">Space Ships Battle <a href="https://yingwerica.github.io/Battleship-Game/" target="_blank" class="app-link">Play the game here!</a></h1> 
+              <img src="../../images/2022-11-14 Spaceship battle game.jpg" alt="Spaceship Battle Game">
+            </li>
+            <li class="slide">
+              <h1 class="header">Memories App -- A MERN Stack App <a href="https://memories-app-frontend-f7op.onrender.com/" target="_blank" class="app-link">Try the app here!</a></h1> 
+              <img src="../../images/Memories_mern_app 2023-01-19 222537.png" alt="Memories App MERN_Stack">
+            </li>
+          </ul>
+        </div>
+      </section>
 </body>
 </html>

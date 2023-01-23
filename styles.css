@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 body {
 	margin: 0;
 	background-color: #ffffff;
@@ -209,7 +209,6 @@ img {
 .h2 {
     position: static;
     display: block;
-    overflow: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     flex: 0 auto;
