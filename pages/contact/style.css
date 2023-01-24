@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.text {
+    width: 16rem;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5%;
+}
