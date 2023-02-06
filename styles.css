@@ -95,7 +95,7 @@ nav a:hover::before {
 .w-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .div-text-home {
@@ -163,10 +163,9 @@ img {
 
 .section-header {
     display: flex;
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .div-header {
@@ -230,7 +229,7 @@ img {
 }
 .section-text {
     display: flex;
-    max-width: 60%;
+    max-width: 80%;
     font-size: 20px;
 }
 
@@ -268,7 +267,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     height: 200px;
-    width: 100%;
+    width: 90%;
     font-size: 25px;
    
 }
